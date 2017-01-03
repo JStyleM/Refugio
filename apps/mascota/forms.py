@@ -19,7 +19,7 @@ class MascotaForm(forms.ModelForm):
 		labels = {
 			'nombre': 'Nombre',
 			'sexo': 'Sexo',
-			'edad_aproximada': 'Edad Aproximada',
+			'edad_aproximada': 'Edad',
 			'fecha_rescate': 'Fecha de Rescate',
 			'persona': 'Adoptante',
 			'vacuna': 'Vacunas',
