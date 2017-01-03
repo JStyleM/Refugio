@@ -1,0 +1,3 @@
+#Tipos de Archivos ignorados por Git
+
+*.pyc
