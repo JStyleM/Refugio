@@ -122,4 +122,6 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (BASE_DIR.child('static'),)
 
+
+#Habilitar para pasar a produccion
 # STATIC_ROOT = '/opt/statics/refugio/'
