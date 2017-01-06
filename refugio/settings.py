@@ -22,9 +22,9 @@ BASE_DIR = Path(__file__).ancestor(2)
 SECRET_KEY = 'l(snqh)*nqo4wd268_@msa32(9z045kd-9=&8qxwh09vu_jeep'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -124,4 +124,4 @@ STATICFILES_DIRS = (BASE_DIR.child('static'),)
 
 
 #Habilitar para pasar a produccion
-# STATIC_ROOT = '/opt/statics/refugio/'
+STATIC_ROOT = '/opt/statics/refugio/'
